@@ -1,0 +1,69 @@
+html{height: 100%;
+    background-color: rgb(34, 57, 75);
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+body{ 
+    height:80%;
+    margin: 10% auto;
+    display: flex;
+    border-radius:1cm ;
+    
+}
+
+.left{
+    width: 35%;
+    background-image: url(/img/senad-palic-C5reYYTBXQk-unsplash.jpg);
+    background-size:cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    display: flex;
+    margin:30% 0;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    font-size: 60pt;
+    background-color: rgba(34, 57, 75, 0.705);
+    color: rgba(240, 248, 255, 0.932);
+    font-family: Norse-Bold;
+}
+@font-face {
+    font-family:Norse-Bold ;
+    src: url(/Norse-Bold.otf);
+}
+
+.title{
+    
+}
+#odin{
+    height: 1.5em;
+}
+
+.img-footer{
+    padding: 0 10%;
+    border-radius: 2em;
+    background-color: rgba(125, 189, 238, 0.075);
+    display: flex;
+    color: aliceblue;
+    align-self:center;
+}
+
+.ref{
+    text-decoration:underline;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.main{
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.932);
+}
