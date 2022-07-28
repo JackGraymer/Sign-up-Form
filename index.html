@@ -30,11 +30,11 @@
             <fieldset>
                 <div>
                     <label for="name">First Name*</label>
-                    <input required type="text" id="name" name="name">
+                    <input required minlength="2" type="text" id="name" name="name">
                 </div>
                 <div>
                     <label for="surname">Surname*</label>
-                    <input required type="text" id="surname" name="surname">
+                    <input required minlength="2" type="text" id="surname" name="surname">
                 </div>
             </fieldset>
 
@@ -56,18 +56,18 @@
                 </div>
                 <div>
                     <label for="confirmpw">Confirm Password*</label>
-                    <input required minlength="8" maxlength="32" type="password" id="confirmpw" name="confirmpw">
+                    <input required minlength="8" maxlength="32" type="password" id="confirmpw" name="confirmpw" ">
                 </div>
             </fieldset>   
-            Fields with * are required  
-            <button type="submit" id="submit">Register</button>
+            Fields with * are required  <br>
+            <button type="submit" id="submit">Create Account</button>
         </form>
         <div>
             
             
         </div>
         <div>
-            <h3>Already have an account? <a href="/index.html">Log in</a></h3>
+            <h3>Already have an account? <a id="login" href="/index.html">Log in</a></h3>
         </div>
     </div>
 </body>
